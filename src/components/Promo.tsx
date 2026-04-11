@@ -19,20 +19,30 @@ export default function Promo() {
         <motion.div style={{ y }} className="relative w-full h-full">
           <img
             src="/images/spiral-circles.jpg"
-            alt="Abstract spiral circles"
+            alt="Розовый декор"
             className="w-full h-full object-cover"
           />
+          <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(180,60,100,0.5) 0%, rgba(100,30,60,0.6) 100%)" }} />
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Анатомия возможностей
+      <h3 className="absolute top-12 right-6 text-pink-200 uppercase z-10 text-sm md:text-base lg:text-lg tracking-widest" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+        The Green Dacha · Встречаемся в 15:00
       </h3>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Каждая секция — рамка для твоей истории. Формируй её, миксуй и позволь контенту
-        литься в неожиданные паттерны, заставляя листать дальше.
-      </p>
+      <div className="absolute bottom-12 right-6 z-10 max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl text-right">
+        <p
+          className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight"
+          style={{ fontFamily: "'Playfair Display', serif" }}
+        >
+          Подарки — только конверты,<br />
+          <span className="italic text-pink-200">если захотите</span>
+        </p>
+        <p className="text-pink-100 text-sm md:text-base mt-4 leading-relaxed" style={{ fontFamily: "'Montserrat', sans-serif", fontWeight: 300 }}>
+          Мне важнее всего ваше присутствие и наши объятия.
+          Но если захотите порадовать меня — буду безмерно благодарна.
+        </p>
+      </div>
     </div>
   );
 }
