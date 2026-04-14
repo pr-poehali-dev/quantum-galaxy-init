@@ -62,8 +62,8 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/6b2e7fb1-4451-4177-8c79-24da03307885/bucket/7b6ab4d1-d30c-494f-9429-d9607e8c61cd.jpg"
-          alt="Made in 1996"
+          src="https://cdn.poehali.dev/projects/6b2e7fb1-4451-4177-8c79-24da03307885/bucket/8d35b042-e964-4b7b-ad3f-3ad84893026a.jpg"
+          alt="Именинница"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(120,40,80,0.45) 0%, rgba(80,20,50,0.65) 100%)" }} />
