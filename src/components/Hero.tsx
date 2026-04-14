@@ -62,8 +62,8 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Праздничный фон"
+          src="https://cdn.poehali.dev/projects/6b2e7fb1-4451-4177-8c79-24da03307885/bucket/9d01fc98-afde-42cf-ad5e-3fdfc9c7a627.jpg"
+          alt="Hello 30"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom, rgba(120,40,80,0.45) 0%, rgba(80,20,50,0.65) 100%)" }} />
